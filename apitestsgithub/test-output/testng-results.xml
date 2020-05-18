@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4164" started-at="2020-05-18T12:22:32 BRT" finished-at="2020-05-18T12:22:36 BRT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4164" started-at="2020-05-18T12:22:32 BRT" finished-at="2020-05-18T12:22:36 BRT">
+      <class name="testesApi.testesApiMateraCom">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testesApi.testesApiMateraCom@76707e36]" name="setup" is-config="true" duration-ms="116" started-at="2020-05-18T12:22:32 BRT" finished-at="2020-05-18T12:22:32 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GET_github_api()[pri:0, instance:testesApi.testesApiMateraCom@76707e36]" name="GET_github_api" duration-ms="3685" started-at="2020-05-18T12:22:32 BRT" finished-at="2020-05-18T12:22:36 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GET_github_api -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testesApi.testesApiMateraCom@76707e36]" name="getResult" is-config="true" duration-ms="11" started-at="2020-05-18T12:22:36 BRT" finished-at="2020-05-18T12:22:36 BRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GET_github_api status=SUCCESS method=testesApiMateraCom.GET_github_api()[pri:0, instance:testesApi.testesApiMateraCom@76707e36] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testesApi.testesApiMateraCom@76707e36]" name="tearDown" is-config="true" duration-ms="320" started-at="2020-05-18T12:22:36 BRT" finished-at="2020-05-18T12:22:36 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testesApi.testesApiMateraCom -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
